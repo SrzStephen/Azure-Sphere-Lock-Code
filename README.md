@@ -1,7 +1,9 @@
 # Azure Sphere Code
 ## Made as part of the "Secure Everything" Hackster.io competition for the Azure Sphere.
 ### Full instructions over at the [competition submission](https://www.hackster.io/lock-and-load/azure-sphere-iot-enabled-rfid-lock-e73f70)
+
 ![diagram](docs/pics/wiring.jpeg)
+
 [Video 1: User Auth](https://youtu.be/Nx61jQrMt5E)
 
 [Video 2: Remote Open](https://youtu.be/xl0Ke_jWDBY)
