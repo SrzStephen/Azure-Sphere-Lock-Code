@@ -93,12 +93,7 @@ static int DirectMethodCall(const char *methodName, const char *payload, size_t 
 	// there is only one method supported "polltime" that should look like { "polltime":5 }
 	Log_Debug("\nDirect Method called %s\n", methodName);
 	Log_Debug("\nPayload %s/n", payload);
-<<<<<<< HEAD
-
 	if (strcmp(methodName, "remote_open")==0)
-=======
-	if (!strcmp(methodName, "polltime"))
->>>>>>> 056d1ee2b2b29a961cbda551f44351247cb76bd6
 	{
 		static const char response[] =
 			"{ \"success\" : true, \"message\" : \"Door Opened\" }";
